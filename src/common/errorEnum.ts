@@ -1,0 +1,5 @@
+export enum ErrorCodes {
+  ELEMENT_NOT_FOUND = 'ELEMENT_NOT_FOUND',
+  TIMEOUT = 'TIMEOUT',
+  API_FAILURE = 'API_FAILURE'
+}

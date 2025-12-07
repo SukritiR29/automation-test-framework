@@ -1,0 +1,10 @@
+{
+  "login": {
+    "username": "testuser@example.com",
+    "password": "Password123!"
+  },
+  "products": [
+    { "name": "Sauce Labs Backpack" },
+    { "name": "Sauce Labs Bike Light" }
+  ]
+}

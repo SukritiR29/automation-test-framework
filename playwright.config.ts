@@ -3,7 +3,7 @@ import * as dotenv from 'dotenv';
 dotenv.config();
 
 const config: PlaywrightTestConfig = {
-  testDir: './src/test',
+  testDir: './src/tests',
   timeout: 30 * 1000,
   retries: process.env.CI ? 2 : 0,
   workers: process.env.CI ? 2 : undefined,
